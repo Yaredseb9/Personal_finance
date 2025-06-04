@@ -7,7 +7,56 @@
 .buildlog/
 .history
 
+# django ignore
+/backend/*.sqlite3
+/backend/*.db
+/backend/*.db-journal
+/backend/*.pot
+/backend/*.pyc
+/backend/*.pyo
+/backend/*.pyd
+/backend/*.pdb
+/backend/*.egg
+/backend/*.egg-info
+/backend/*.eggs
+/backend/*.manifest
+/backend/*.spec
+/backend/*.mo
+/backend/*.po
+/backend/*.orig
+/backend/*.bak
+/backend/*.swp
+/backend/*.swo
+/backend/*.swn
+/backend/*.DS_Store
+/backend/# Temporary files
+/backend/*.tmp
+/backend/*.temp
+/backend/*.cache
+/backend/*.pid
+/backend/*.pid.lock
+/backend/venv/
+/backend/__pycache__/
+/backend/.pytest_cache/
+/backend/.coverage
+/backend/.mypy_cache/
+/backend/.tox/
+/backend/.vscode/
+/backend/.env
+/backend/*.pyc
+# IDEs and editors
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+# OS generated files
+.DS_Store
+Thumbs.db
 
+venv/
+__pycache__/
+*.pyc
+.env
 
 # Flutter repo-specific
 /bin/cache/
